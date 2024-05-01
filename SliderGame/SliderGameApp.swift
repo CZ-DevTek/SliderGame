@@ -11,7 +11,7 @@ import SwiftUI
 struct SliderGameApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView(currentValue: 50.0)
+            ContentView()
         }
     }
 }

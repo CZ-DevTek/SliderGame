@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4F37E5F52BE27EDB00799535 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F37E5F32BE27EDA00799535 /* Main.storyboard */; };
-		4F37E5F62BE27EDB00799535 /* SliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F37E5F42BE27EDB00799535 /* SliderViewController.swift */; };
 		4FF523382BDEC39A00B3884D /* SliderGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF523372BDEC39A00B3884D /* SliderGameApp.swift */; };
 		4FF5233A2BDEC39A00B3884D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF523392BDEC39A00B3884D /* ContentView.swift */; };
 		4FF5233C2BDEC39C00B3884D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FF5233B2BDEC39C00B3884D /* Assets.xcassets */; };
@@ -17,8 +15,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4F37E5F32BE27EDA00799535 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		4F37E5F42BE27EDB00799535 /* SliderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderViewController.swift; sourceTree = "<group>"; };
 		4FF523342BDEC39A00B3884D /* SliderGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SliderGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FF523372BDEC39A00B3884D /* SliderGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderGameApp.swift; sourceTree = "<group>"; };
 		4FF523392BDEC39A00B3884D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,8 +56,6 @@
 				4FF523372BDEC39A00B3884D /* SliderGameApp.swift */,
 				4FF523392BDEC39A00B3884D /* ContentView.swift */,
 				4FF5234F2BE1236300B3884D /* SliderViewControllerRepresentation.swift */,
-				4F37E5F32BE27EDA00799535 /* Main.storyboard */,
-				4F37E5F42BE27EDB00799535 /* SliderViewController.swift */,
 				4FF5233B2BDEC39C00B3884D /* Assets.xcassets */,
 				4FF5233D2BDEC39C00B3884D /* Preview Content */,
 			);
@@ -136,7 +130,6 @@
 			files = (
 				4FF5233F2BDEC39C00B3884D /* Preview Assets.xcassets in Resources */,
 				4FF5233C2BDEC39C00B3884D /* Assets.xcassets in Resources */,
-				4F37E5F52BE27EDB00799535 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,7 +141,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FF523502BE1236300B3884D /* SliderViewControllerRepresentation.swift in Sources */,
-				4F37E5F62BE27EDB00799535 /* SliderViewController.swift in Sources */,
 				4FF5233A2BDEC39A00B3884D /* ContentView.swift in Sources */,
 				4FF523382BDEC39A00B3884D /* SliderGameApp.swift in Sources */,
 			);

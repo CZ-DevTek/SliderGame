@@ -16,9 +16,8 @@ struct SliderViewRepresentation: UIViewRepresentable {
         let slider =  UISlider()
         slider.minimumValue = 0
         slider.maximumValue = 100
-        slider.setValue(Float(currentValue), animated: true)
         slider.thumbTintColor = .red
-       
+        
         slider.addTarget(
             context.coordinator,
             action: #selector(Coordinator.sliderChanged),
@@ -27,10 +26,10 @@ struct SliderViewRepresentation: UIViewRepresentable {
         updateAlpha(slider)
         return slider
     }
-        func updateUIView(_ uiView: UISlider, context: Context) {
-            uiView.value = Float(currentValue)
-            updateAlpha(uiView)
-        }
+    func updateUIView(_ uiView: UISlider, context: Context) {
+        uiView.value = Float(currentValue)
+        updateAlpha(uiView)
+    }
     
     func makeCoordinator() -> Coordinator {
         Coordinator(currentValue: $currentValue, targetValue: $targetValue, action: action)
